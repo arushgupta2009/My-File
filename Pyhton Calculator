@@ -1,0 +1,33 @@
+import time
+print("LOADING............")
+time.sleep(3)
+print("LOADED :)")
+print("WELCOME TO CALCULATOR")
+print("Enter two no. and the operation")
+print("Enter the first no.")
+input1 = input()
+print("Enter the second no.")
+input2 = input()
+print("Enter the opertaion")
+input3 = input()
+if(input3 == "+"):
+    print("Getting the sum")
+    time.sleep(1)
+    print(int(input1) + int(input2));
+elif(input3 == "-"):
+    print("Getting the differences")
+    time.sleep(1)
+    print(int(input1) - int(input2))
+elif(input3 == "*"):
+    print("Getting the product")
+    time.sleep(1)
+    print(int(input1) * int(input2))
+elif(input3 == "/"):
+    print("Getting the quotient")
+    time.sleep(1)
+    print(int(input1) / int(input2))
+else :
+    print("Loading...")
+    time.sleep(1)
+    print("502 Bad gateway ")
+    print("An error occured please rerun the program")
